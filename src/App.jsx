@@ -33,9 +33,9 @@ class App extends React.Component {
   }
 
   /*Write an addStudent method here*/
-addStudent(StudentName) {
+addStudent(studentName) {
     this.setState({
-      assignments: this.state.students.concat(StudentName)
+      assignments: this.state.students.concat(studentName)
     });
   }
   addGrade(assignment, student, score) {
